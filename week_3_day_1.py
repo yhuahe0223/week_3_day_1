@@ -50,29 +50,49 @@
 # # Review
 # create variables for the following :
 # 1. age
+age = 17 #interger 
 # 2. name
+name = "yao"
 # 3. song
+song = "annie. - Wave to Earth,"
 # 4. food
+food = "barria "
 # 5. number
+number = 100
 
 
 # #now include the variables you just made print in the following...
 
 
 # Once upon a time, there was a [age] old coder named [name].
+print("Once upon a time, there was a " ,age, 
+       "old coder named", name)
 
 
 # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
-
+print(name, "liked to hum the song ", song, 
+      "while coding . It was so annoying that their teammates would throw", food, 
+       "until", name, "would stop singing." )
 
 # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
-##########################################################################################
+print("Still", name, "was the best coder on the team and could write",
+      number, "lines of code every day. Maybe", song, "was", name,
+      "'s secret power?"  )
 
 
+number1="$100"
+number2="$200"
+number3="$300"
+number4="$400"
+number5="$500"
 
 
-
-
+# print (number1 
+# ,number2 
+# ,number3
+# ,number4
+# ,number5, "that how much money I have"
+# )
 
 
 
