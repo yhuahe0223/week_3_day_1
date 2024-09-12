@@ -122,11 +122,11 @@ number5="$500"
 # Correcting Invalid Names: Below are some invalid names. Correct them according to the rules:
 
 
-# 1st_name
-# last name
-# email@address
-# percent%
-# variable#name
+# first_name
+# last_name
+# email_address
+# percent
+# variable_name
 # O
 # list
 # Creating Valid Names: Create valid names for the following descriptions:
@@ -149,9 +149,9 @@ number5="$500"
 # email_address
 # percentage
 # variable_name
-# 1_variable
-# email@address
-# percentage%
+# first_variable
+# email_address
+# percentage
 # i
 
 
