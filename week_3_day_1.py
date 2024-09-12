@@ -47,44 +47,44 @@
 
 
 
-# # Review
-# create variables for the following :
-# 1. age
-age = 17 #interger 
-# 2. name
-name = "yao"
-# 3. song
-song = "annie. - Wave to Earth,"
-# 4. food
-food = "barria "
-# 5. number
-number = 100
+# # # Review
+# # create variables for the following :
+# # 1. age
+# age = 17 #interger 
+# # 2. name
+# name = "yao"
+# # 3. song
+# song = "annie. - Wave to Earth,"
+# # 4. food
+# food = "barria "
+# # 5. number
+# number = 100
 
 
-# #now include the variables you just made print in the following...
+# # #now include the variables you just made print in the following...
 
 
-# Once upon a time, there was a [age] old coder named [name].
-print("Once upon a time, there was a " ,age, 
-       "old coder named", name)
+# # Once upon a time, there was a [age] old coder named [name].
+# print("Once upon a time, there was a " ,age, 
+#        "old coder named", name)
 
 
-# [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
-print(name, "liked to hum the song ", song, 
-      "while coding . It was so annoying that their teammates would throw", food, 
-       "until", name, "would stop singing." )
+# # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
+# print(name, "liked to hum the song ", song, 
+#       "while coding . It was so annoying that their teammates would throw", food, 
+#        "until", name, "would stop singing." )
 
-# Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
-print("Still", name, "was the best coder on the team and could write",
-      number, "lines of code every day. Maybe", song, "was", name,
-      "'s secret power?"  )
+# # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
+# print("Still", name, "was the best coder on the team and could write",
+#       number, "lines of code every day. Maybe", song, "was", name,
+#       "'s secret power?"  )
 
 
-number1="$100"
-number2="$200"
-number3="$300"
-number4="$400"
-number5="$500"
+# number1="$100"
+# number2="$200"
+# number3="$300"
+# number4="$400"
+# number5="$500"
 
 
 # print (number1 
@@ -187,20 +187,33 @@ number5="$500"
 
 ##########################################################################################
 # #addition
+print(2+1)
 # #multiplication
+print(2*2)
 # #division
+print(3/2)
 # #modulo
+print(3%2)
 # #powers
+print(2**3)
 # #get the max and min of a number
+print(max(1,2)) # max number get the largest number 
+print(min(1,2)) # min number get the smallest number 
 # #round a number
+print(round(3.4))
 # # absolute value
+print(abs(-3)) # the distance between the value to zero, always positive 
 # # order of operations
+print(2+10/3*5)
 # #to do more you need to import special math libraries from python
-# #from math import *    
+from math import *    
 # #this goes out and grabs some different math functions we can use
 # #floor method
+print(floor(3.7))
 # #ceil method
+print(ceil(2.7))
 # #sqrt method
+print(sqrt(36))
 
 
 
@@ -220,14 +233,23 @@ number5="$500"
 # # **Getting Input from users**
 # #how do we get input from users?
 # input("what is your name?")
+name = input("Whats your name?")
+print("Hello", name)
 # # basic math calculator
 # #ask the user for 2 numbers
+num1 = input("enter a number")
+num2 = input("enter another number")
 # # print out a statement where you:
 # # add them together
+print(num1 + num2)
 # #multiply
+print(num1*num2)
 # # find the max number
+print(max(num1,num2))
 # # find the remainder of the numbers
+print(num1%num2)
 # #round one number
+print(round(num1))
 
 
 
